@@ -1,0 +1,33 @@
+<OverlayData>
+    <MarkerCategory name="onlyfish" displayname="Only Fish">
+        <!-- Discord Invite:https://discord.gg/FP8dQj6KBj -->
+        <MarkerCategory name="instrux" displayname="Click below to copy WPs, here for trails" defaulttoggle="0"/>
+        <MarkerCategory name="fishegg" displayname="Fish Egg" isseparator="1" copy="[&amp;BC8EAAA=][&amp;BOcBAAA=][&amp;BEMLAAA=]" copy-message="Fish Egg WPs copied to clipboard!"/>
+        <MarkerCategory name="minnow" displayname="Freshwater Minnow" isseparator="1" copy="[&amp;BMcMAAA=][&amp;BGMNAAA=][&amp;BC8EAAA=][&amp;BOcBAAA=]" copy-message="Freshwater Minnow WPs copied to clipboard!"/>
+        <MarkerCategory name="glowworm" displayname="Glow Worm" isseparator="1" copy="[&amp;BMcMAAA=][&amp;BGMNAAA=]" copy-message="Glow Worm WPs copied to clipboard!"/>
+        <MarkerCategory name="beetle" displayname="Lava Beetle" isseparator="1" copy="[&amp;BHgJAAA=]" copy-message="Lava Beetle WP copied to clipboard!"/>
+        <MarkerCategory name="leech" displayname="Leech" isseparator="1" copy="[&amp;BO8JAAA=]" copy-message="Leech WP copied to clipboard!"/>
+        <MarkerCategory name="lightning" displayname="Lightning Bug" isseparator="1" copy="[&amp;BOcBAAA=]" copy-message="Lightning Bug WP copied to clipboard!"/>
+        <MarkerCategory name="nightcrawler" displayname="Nightcrawler" isseparator="1" copy="[&amp;BKIMAAA=]" copy-message="Nightcrawler WP copied to clipboard!"/>
+        <MarkerCategory name="ramshorn" displayname="Ramshorn Snail" isseparator="1" copy="[&amp;BIACAAA=]" copy-message="Ramshorn Snail WP copied to clipboard!"/>
+        <MarkerCategory name="sardine" displayname="Sardine" isseparator="1" copy="[&amp;BJ4MAAA=][&amp;BMYMAAA=][&amp;BAcFAAA=][&amp;BO8JAAA=]" copy-message="Sardine WPs copied to clipboard!"/>
+        <MarkerCategory name="scorpion" displayname="Scorpion" isseparator="1" copy="[&amp;BLsKAAA=]" copy-message="Scorpion WP copied to clipboard!"/>
+        <MarkerCategory name="shrimpling" displayname="Shrimpling" isseparator="1" copy="[&amp;BJ4MAAA=][&amp;BMYMAAA=][&amp;BKIMAAA=][&amp;BC8EAAA=][&amp;BIACAAA=]" copy-message="Shrimpling WPs copied to clipboard!"/>
+        <MarkerCategory name="sparkfly" displayname="Sparkfly Larva" isseparator="1" copy="[&amp;BAcFAAA=]" copy-message="Sparkfly Larva WP copied to clipboard!"/>
+    </MarkerCategory>
+    <POIs>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_si.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_im.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_la.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_ew.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_as.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_eb.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_sl.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_de.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_fs.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_co.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_rs.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_sp.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+        <Trail type="onlyfish.instrux" trailData="Data/Trails/bait_nkc.trl" texture="Data/Icons/default_trail_solid.png" alpha="0.7" color="00ffff"/>
+    </POIs>
+</OverlayData>
