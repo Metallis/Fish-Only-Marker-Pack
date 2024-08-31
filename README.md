@@ -3,6 +3,8 @@ This Marker Pack is primarily developed by Metallis.6105 (Discord: Metallis#9388
  - maanlichtje
  - LDR
  - Neroc
+ - HeroineDark
+ - HexedHero
 
 I also receive information from various people on the [Blish HUD Discord](https://discord.gg/FYKN3qh).
 

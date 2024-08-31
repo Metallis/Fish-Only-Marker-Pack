@@ -1,46 +1,58 @@
-<OverlayData>
-    <MarkerCategory name="onlyfish" displayname="Only Fish">
+<!DOCTYPE OverlayData PUBLIC "" "https://raw.githubusercontent.com/xrandox/Gw2_Marker_Pack_DTD_XSD/main/GW2MarkerPack.dtd">
+<OverlayData 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD https://raw.githubusercontent.com/xrandox/Gw2_Marker_Pack_DTD_XSD/main/GW2MarkerPack.xsd"
+xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
+    <MarkerCategory name="onlyfish" DisplayName="Only Fish" fadeNear="3000" fadeFar="5000">
         <!-- Icon courtesy of Nicodemus in the BHUD Discord server -->
         <!-- Markers placed by Metallis (Discord: _metallis_) with help from maanlichtje, LDR, Neroc, HeroineDark and HexedHero-->
         <!-- Discord Invite: https://discord.gg/FP8dQj6KBj -->
-        <MarkerCategory name="fishingholes" displayname="Fishing Holes" iconfile="Data/Icons/fishing_pin_b.png" bounce="rise" bounce-height="3" autotrigger="1" triggerrange="25">
-            <MarkerCategory name="astral" displayname="Astral Fish"/>
-            <MarkerCategory name="dream" displayname="Boreal Fish"/>
-            <MarkerCategory name="cavern" displayname="Cavern Fish"/>
-            <MarkerCategory name="channel" displayname="Channel Fish"/>
-            <MarkerCategory name="coastal" displayname="Coastal Fish"/>
-            <MarkerCategory name="deep" displayname="Deep Fishing Hole"/>
-            <MarkerCategory name="deeptower" displayname="Deep Tower Fish"/>
-            <MarkerCategory name="desert" displayname="Desert Fish"/>
-            <MarkerCategory name="dream" displayname="Dream Fish"/>
-            <MarkerCategory name="event" displayname="Event/Heart/Other">
-                <MarkerCategory name="innerchamber" displayname="Inner Chamber Fish"/>
-                <MarkerCategory name="lutgardis" displayname="Lutgardis Trout"/>
-                <MarkerCategory name="naksi" displayname="Naksi Bay Fish"/>
-                <MarkerCategory name="rare" displayname="Rare Fish"/>
-                <MarkerCategory name="shinota" displayname="Shinota Blackfins"/>
-                <MarkerCategory name="wreckage" displayname="Wreckage Site"/>
+        <MarkerCategory name="fishingholes" DisplayName="Fishing Holes" iconFile="Data/Icons/fishing_pin_b.png" bounce="rise" bounce-height="3" autoTrigger="1" triggerRange="25">
+            <MarkerCategory name="astral" DisplayName="Astral Fish"/>
+            <MarkerCategory name="dream" DisplayName="Boreal Fish"/>
+            <MarkerCategory name="brackishj" DisplayName="Brackish Janthir Fish"/>
+            <MarkerCategory name="cavern" DisplayName="Cavern Fish"/>
+            <MarkerCategory name="channel" DisplayName="Channel Fish"/>
+            <MarkerCategory name="coastal" DisplayName="Coastal Fish"/>
+            <MarkerCategory name="deep" DisplayName="Deep Fishing Hole"/>
+            <MarkerCategory name="deeptower" DisplayName="Deep Tower Fish"/>
+            <MarkerCategory name="desert" DisplayName="Desert Fish"/>
+            <MarkerCategory name="dream" DisplayName="Dream Fish"/>
+            <MarkerCategory name="event" DisplayName="Event/Heart/Other">
+                <MarkerCategory name="innerchamber" DisplayName="Inner Chamber Fish"/>
+                <MarkerCategory name="lutgardis" DisplayName="Lutgardis Trout"/>
+                <MarkerCategory name="naksi" DisplayName="Naksi Bay Fish"/>
+                <MarkerCategory name="rare" DisplayName="Rare Fish"/>
+                <MarkerCategory name="shinota" DisplayName="Shinota Blackfins"/>
+                <MarkerCategory name="wreckage" DisplayName="Wreckage Site"/>
             </MarkerCategory>
-            <MarkerCategory name="fracchannel" displayname="Fractured Channel Fish"/>
-            <MarkerCategory name="fracdesert" displayname="Fractured Desert Fish"/>
-            <MarkerCategory name="fracfresh" displayname="Fractured Freshwater Fish"/>
-            <MarkerCategory name="fraclake" displayname="Fractured Lake Fish"/>
-            <MarkerCategory name="freshwater" displayname="Freshwater Fish"/>
-            <MarkerCategory name="grotto" displayname="Grotto Fish"/>
-            <MarkerCategory name="lake" displayname="Lake Fish"/>
-            <MarkerCategory name="mysterious" displayname="Mysterious Waters Fish"/>
-            <MarkerCategory name="nayosian" displayname="Nayosian Fish"/>
-            <MarkerCategory name="noxious" displayname="Noxious Water Fish"/>
-            <MarkerCategory name="offshore" displayname="Offshore Fish"/>
-            <MarkerCategory name="polluted" displayname="Polluted Lake Fish"/>
-            <MarkerCategory name="quarry" displayname="Quarry Fish"/>
-            <MarkerCategory name="random" displayname="Random Fish"/>
-            <MarkerCategory name="rare" displayname="Rare Fish"/>
-            <MarkerCategory name="river" displayname="River Fish"/>
-            <MarkerCategory name="saltwater" displayname="Saltwater Fish"/>
-            <MarkerCategory name="shore" displayname="Shore Fish"/>
-            <MarkerCategory name="spire" displayname="Spire Fish"/>
-            <MarkerCategory name="volcanic" displayname="Volcanic Fish"/>
+            <MarkerCategory name="fracchannel" DisplayName="Fractured Channel Fish"/>
+            <MarkerCategory name="fracdesert" DisplayName="Fractured Desert Fish"/>
+            <MarkerCategory name="fracfresh" DisplayName="Fractured Freshwater Fish"/>
+            <MarkerCategory name="fraclake" DisplayName="Fractured Lake Fish"/>
+            <MarkerCategory name="freshwater" DisplayName="Freshwater Fish"/>
+            <MarkerCategory name="freshj" DisplayName="Freshwater Janthir Fish"/>
+            <MarkerCategory name="grotto" DisplayName="Grotto Fish"/>
+            <MarkerCategory name="lake" DisplayName="Lake Fish"/>
+            <MarkerCategory name="lowbrackish" DisplayName="Lowland Brackish Fish"/>
+            <MarkerCategory name="lowfresh" DisplayName="Lowland Freshwater Fish"/>
+            <MarkerCategory name="lowoffshore" DisplayName="Lowland Offshore Fish"/>
+            <MarkerCategory name="lowshore" DisplayName="Lowland Shore Fish"/>
+            <MarkerCategory name="mysterious" DisplayName="Mysterious Waters Fish"/>
+            <MarkerCategory name="nayosian" DisplayName="Nayosian Fish"/>
+            <MarkerCategory name="noxious" DisplayName="Noxious Water Fish"/>
+            <MarkerCategory name="offshore" DisplayName="Offshore Fish"/>
+            <MarkerCategory name="osj" DisplayName="Offshore Saltwater Janthir Fish"/>
+            <MarkerCategory name="polluted" DisplayName="Polluted Lake Fish"/>
+            <MarkerCategory name="quarry" DisplayName="Quarry Fish"/>
+            <MarkerCategory name="random" DisplayName="Random Fish"/>
+            <MarkerCategory name="rare" DisplayName="Rare Fish"/>
+            <MarkerCategory name="river" DisplayName="River Fish"/>
+            <MarkerCategory name="saltwater" DisplayName="Saltwater Fish"/>
+            <MarkerCategory name="shore" DisplayName="Shore Fish"/>
+            <MarkerCategory name="ssj" DisplayName="Shore Saltwater Janthir Fish"/>
+            <MarkerCategory name="spire" DisplayName="Spire Fish"/>
+            <MarkerCategory name="volcanic" DisplayName="Volcanic Fish"/>
         </MarkerCategory>
     </MarkerCategory>
     <POIs>
@@ -133,6 +145,7 @@
         <POI MapID="17" xpos="-35.4132" ypos="1.37639" zpos="-447.814" type="onlyfish.fishingholes.lake" GUID="LthUnxetUEqzp6T8TRtXLw=="/>
         <POI MapID="17" xpos="146.58" ypos="1.37639" zpos="250.883" type="onlyfish.fishingholes.river" GUID="rFWhpElkiUWR9dOg8hSIfQ=="/>
         <POI MapID="17" xpos="-517.594" ypos="1.37639" zpos="431.708" type="onlyfish.fishingholes.lake" GUID="zn0uU1pr+UibxGdmOtgwdA=="/>
+        <POI MapID="17" xpos="45.28302" ypos="1.376388" zpos="-661.2886" type="onlyfish.fishingholes.lake" GUID="XeuU0qjCTUGLvtoAYJffmg=="/>
         <!-- Plains of Ashford -->
         <POI MapID="19" xpos="580.577" ypos="1.37639" zpos="-308.399" type="onlyfish.fishingholes.lake" GUID="5W0ZhowuvUGiLLJGpiBcig=="/>
         <POI MapID="19" xpos="665.355" ypos="1.37639" zpos="-324.449" type="onlyfish.fishingholes.lake" GUID="suzTI5MqQUOGAHGVptclWg=="/>
@@ -321,6 +334,8 @@
         <POI MapID="23" xpos="19.1888" ypos="1.37639" zpos="-203.247" type="onlyfish.fishingholes.polluted" GUID="qitbfSFcM0ODwQTFRN0h8Q=="/>
         <POI MapID="23" xpos="1157.94" ypos="1.37639" zpos="-413.947" type="onlyfish.fishingholes.coastal" GUID="wtsJGzGyzUyg7S1pkDSfNQ=="/>
         <POI MapID="23" xpos="249.577" ypos="1.37639" zpos="-252.897" type="onlyfish.fishingholes.polluted" GUID="4670Bl9TokmiMAuuri1gQA=="/>
+        <POI MapID="23" xpos="183.1495" ypos="1.376387" zpos="-319.1988" type="onlyfish.fishingholes.polluted" GUID="/HpsQtf5SUm5SZJesqpyfw=="/>
+        <POI MapID="23" xpos="-516.4733" ypos="1.376387" zpos="-441.2305" type="onlyfish.fishingholes.polluted" GUID="eB26JlEqnE+DLuOu0DCPtQ=="/>
         <!-- Gendarran Fields -->
         <POI MapID="24" xpos="251.122" ypos="1.37639" zpos="-491.587" type="onlyfish.fishingholes.lake" GUID="b1R1s1eMy0mze/03s3U9uA=="/>
         <POI MapID="24" xpos="680.004" ypos="1.37639" zpos="-502.241" type="onlyfish.fishingholes.lake" GUID="hkSIdFU6EUWx3QBgrXQQGg=="/>
@@ -406,6 +421,7 @@
         <POI MapID="24" xpos="61.1826" ypos="1.37639" zpos="304.959" type="onlyfish.fishingholes.lake" GUID="cPFBHFqzS0G08465iTZacw=="/>
         <POI MapID="24" xpos="184.731" ypos="1.37639" zpos="324.538" type="onlyfish.fishingholes.lake" GUID="LMJ/pGXrh0qxqCjEPs2u0Q=="/>
         <POI MapID="24" xpos="367.796" ypos="1.37639" zpos="301.961" type="onlyfish.fishingholes.lake" GUID="cjoo8Y8uNUWA1e+5+BV47g=="/>
+        <POI MapID="24" xpos="-476.3877" ypos="1.376387" zpos="-339.8997" type="onlyfish.fishingholes.lake" GUID="eKwsZZZeTk2qWKqLKNbRLw=="/>
         <!-- Iron Marches -->
         <POI MapID="25" xpos="-39.5448" ypos="1.37639" zpos="-1082.22" type="onlyfish.fishingholes.lake" GUID="1dUiqz7qdUOLYHZ5IngJ/A=="/>
         <POI MapID="25" xpos="170.93" ypos="1.37639" zpos="-1054.55" type="onlyfish.fishingholes.lake" GUID="tZ2t8B5Rf06Kw11AsLLlLg=="/>
@@ -450,6 +466,13 @@
         <POI MapID="25" xpos="410.547" ypos="1.37639" zpos="38.0391" type="onlyfish.fishingholes.noxious" GUID="wbwkN6jwpkW0kebYX2v0sA=="/>
         <POI MapID="25" xpos="248.728" ypos="1.37639" zpos="210.336" type="onlyfish.fishingholes.noxious" GUID="fUdw6OTeE02fVs+eA/Wrlg=="/>
         <POI MapID="25" xpos="292.621" ypos="1.37639" zpos="230.357" type="onlyfish.fishingholes.noxious" GUID="OgmHEyZldEONNOgw1GVIsQ=="/>
+        <POI MapID="25" xpos="336.3847" ypos="1.376387" zpos="97.71486" type="onlyfish.fishingholes.noxious" GUID="vUxhRgU+60WqDIzxvtlXyQ=="/>
+        <POI MapID="25" xpos="387.8223" ypos="1.376387" zpos="17.38606" type="onlyfish.fishingholes.noxious" GUID="2nNZVQTq1Ea0YnKb98kekg=="/>
+        <POI MapID="25" xpos="293.2735" ypos="1.376387" zpos="81.03907" type="onlyfish.fishingholes.noxious" GUID="ds6J8h/j5Eik0Sm3S2SvkQ=="/>
+        <POI MapID="25" xpos="315.988" ypos="1.376387" zpos="41.33913" type="onlyfish.fishingholes.noxious" GUID="NkR7uDlRnEqHT6ejlmes6g=="/>
+        <POI MapID="25" xpos="322.3791" ypos="1.376387" zpos="-18.35799" type="onlyfish.fishingholes.noxious" GUID="JYQTbnZvWkCcVTx0HZRcAQ=="/>
+        <POI MapID="25" xpos="357.8932" ypos="1.376387" zpos="65.68866" type="onlyfish.fishingholes.noxious" GUID="D0CL8UYyBk+4dyEA74ha0A=="/>
+        <POI MapID="25" xpos="388.5835" ypos="1.376387" zpos="158.7198" type="onlyfish.fishingholes.noxious" GUID="FfDsRlrEvk6xbflk++9rEQ=="/>
         <!-- Dredgehaunt Cliffs -->
         <POI MapID="26" xpos="-555.978" ypos="1.37639" zpos="544.114" type="onlyfish.fishingholes.boreal" GUID="RfxHCFj14EGZ+YdecwdDaw=="/>
         <POI MapID="26" xpos="-519.685" ypos="1.37639" zpos="535.79" type="onlyfish.fishingholes.boreal" GUID="s83n/SpSFk+CstKvCC4NCw=="/>
@@ -465,6 +488,8 @@
         <POI MapID="27" xpos="-326.147" ypos="1.37639" zpos="-1009.58" type="onlyfish.fishingholes.lake" GUID="4fdMoFX9pECdNGiNn0uclw=="/>
         <POI MapID="27" xpos="-125.438" ypos="1.37639" zpos="-730.259" type="onlyfish.fishingholes.lake" GUID="dDtr02JyXESN7mP3e/KMrw=="/>
         <POI MapID="27" xpos="-347.704" ypos="1.37639" zpos="-1215.02" type="onlyfish.fishingholes.lake" GUID="uAwR2JUmb0a56a5MKNHspg=="/>
+        <POI MapID="27" xpos="-305.9395" ypos="1.376387" zpos="-907.3993" type="onlyfish.fishingholes.lake" GUID="5VTaNTVDIUmFPhs5E3X3Jg=="/>
+        <POI MapID="27" xpos="-253.8031" ypos="1.376387" zpos="-711.8228" type="onlyfish.fishingholes.lake" GUID="P3lu2Dg7tEyOuuisxWNSOA=="/>
         <!-- Wayfarer Foothills -->
         <POI MapID="28" xpos="263.649" ypos="1.37639" zpos="-751.916" type="onlyfish.fishingholes.lake" GUID="YHmiChisIEOFxITxCoA12A=="/>
         <POI MapID="28" xpos="250.071" ypos="1.37639" zpos="-286.541" type="onlyfish.fishingholes.lake" GUID="jJib1eT8FkG/VYvrc7P5hw=="/>
@@ -757,6 +782,7 @@
         <POI MapID="39" xpos="383.392" ypos="1.37639" zpos="-530.828" type="onlyfish.fishingholes.saltwater" GUID="EhE7XU6FF0GdgOlwpwdnHA=="/>
         <POI MapID="39" xpos="192.722" ypos="1.37639" zpos="-6.12025" type="onlyfish.fishingholes.saltwater" GUID="Pwy7ziSdIkCZq9ZALj/uCg=="/>
         <POI MapID="39" xpos="916.577" ypos="1.37639" zpos="-284.031" type="onlyfish.fishingholes.saltwater" GUID="7X/xEfCNy0i5/Rpb15+qzQ=="/>
+        <POI MapID="39" xpos="378.4989" ypos="1.376387" zpos="-81.24124" type="onlyfish.fishingholes.saltwater" GUID="qpGD2bSsb0Cvo9EXTU6CwQ=="/>
         <!-- Lion's Arch -->
         <POI MapID="50" xpos="207.62" ypos="1.37639" zpos="86.225" type="onlyfish.fishingholes.coastal" GUID="sdNdVxBPRU2RZJzJRxS7Zg=="/>
         <POI MapID="50" xpos="247.378" ypos="1.37639" zpos="-6.32689" type="onlyfish.fishingholes.coastal" GUID="wSWykSoziUO5hLrtWryyUg=="/>
@@ -1330,6 +1356,7 @@
         <POI MapID="73" xpos="-126.183" ypos="1.37639" zpos="672.346" type="onlyfish.fishingholes.coastal" GUID="I5uQyYX2FE24B+o15vSV9Q=="/>
         <POI MapID="73" xpos="480.684" ypos="1.37639" zpos="-47.0438" type="onlyfish.fishingholes.river" GUID="3LEDJm8shES7o7U72EB3Zw=="/>
         <POI MapID="73" xpos="212.996" ypos="1.37639" zpos="432.169" type="onlyfish.fishingholes.coastal" GUID="9NZXQze+p0Cb68LwqaVxrg=="/>
+        <POI MapID="73" xpos="374.0488" ypos="1.376387" zpos="388.2725" type="onlyfish.fishingholes.coastal" GUID="QX5g8iw2PEiwz1+7ltG9bA=="/>
         <!-- Rata Sum Port Authority -->
         <POI MapID="139" xpos="-432.711" ypos="1.37639" zpos="-477.886" type="onlyfish.fishingholes.saltwater" GUID="cym2HgoQv0OQIfX/EbxGrQ=="/>
         <POI MapID="139" xpos="-465.656" ypos="1.37639" zpos="-387.053" type="onlyfish.fishingholes.saltwater" GUID="YVSs+coBhki+5zl3DH+PAQ=="/>
@@ -1436,6 +1463,11 @@
         <POI MapID="922" xpos="74.5334" ypos="1.37639" zpos="113.54" type="onlyfish.fishingholes.random" GUID="BAzyiykip0+nWnLV5q3hYQ=="/>
         <POI MapID="922" xpos="-252.573" ypos="1.37639" zpos="86.2069" type="onlyfish.fishingholes.random" GUID="4mRfi5kkJEW/cgsSE6MOiw=="/>
         <POI MapID="922" xpos="-287.145" ypos="1.37639" zpos="-165.809" type="onlyfish.fishingholes.random" GUID="yB5p14956U+O8TO/bjDcTg=="/>
+        <POI MapID="922" xpos="-291.166" ypos="1.376387" zpos="164.1742" type="onlyfish.fishingholes.random" GUID="3BkSYKXIq0yUS3TurKmnEg=="/>
+        <POI MapID="922" xpos="-132.553" ypos="1.376387" zpos="-307.3011" type="onlyfish.fishingholes.random" GUID="54gHrYzfn0uYl057F+n+oQ=="/>
+        <POI MapID="922" xpos="32.35208" ypos="1.376387" zpos="-73.36603" type="onlyfish.fishingholes.random" GUID="3z3Q5CJT1kKykwC2Dbl/Uw=="/>
+        <POI MapID="922" xpos="87.78882" ypos="1.376387" zpos="-158.255" type="onlyfish.fishingholes.random" GUID="LI9fkg24Y0Wn36ICIcTgWw=="/>
+        <POI MapID="922" xpos="44.92078" ypos="1.376387" zpos="126.9548" type="onlyfish.fishingholes.random" GUID="CoBk3Ep/JE+YEQ2IqqpZ/w=="/>
         <!-- Guild Hall: Gilded Hollow -->
         <POI MapID="1121" xpos="205.644" ypos="1.37639" zpos="68.6337" type="onlyfish.fishingholes.freshwater" GUID="j8IHllgpcU22wMsC8M9nKg=="/>
         <POI MapID="1121" xpos="145.993" ypos="1.37639" zpos="-75.435" type="onlyfish.fishingholes.freshwater" GUID="eA1Se7F0OUC5dtx+/ydd7g=="/>
@@ -1610,6 +1642,8 @@
         <POI MapID="1178" xpos="-19.0014" ypos="1.37639" zpos="-53.5042" type="onlyfish.fishingholes.boreal" GUID="75OqlxQL10e2gqQwFu51TQ=="/>
         <POI MapID="1178" xpos="-136.621" ypos="1.37639" zpos="64.8247" type="onlyfish.fishingholes.boreal" GUID="jK+QQeleokGSsHxvvXY61A=="/>
         <POI MapID="1178" xpos="-36.9227" ypos="1.37639" zpos="-189.277" type="onlyfish.fishingholes.boreal" GUID="k4zWnBowv0mFwPQM5xx8yQ=="/>
+        <POI MapID="1178" xpos="-54.7948" ypos="1.376333" zpos="-90.52266" type="onlyfish.fishingholes.boreal" GUID="7wgKUIEL4UmX49ZgPxnHwA=="/>
+
         <!-- Lake Doric -->
         <POI MapID="1185" xpos="-207.852" ypos="1.37639" zpos="62.5269" type="onlyfish.fishingholes.lake" GUID="27vbfHmUtkiV+o12BCPILA=="/>
         <POI MapID="1185" xpos="-147.238" ypos="1.37639" zpos="133.775" type="onlyfish.fishingholes.lake" GUID="thdVtufia0arY7GL3UXN/w=="/>
@@ -2174,6 +2208,7 @@
         <POI MapID="1271" xpos="-383.9138" ypos="1.37639" zpos="702.7778" type="onlyfish.fishingholes.shore" GUID="0bfM2IJGTkKfOFFnLNl2ZQ=="/>
         <POI MapID="1271" xpos="-420.2803" ypos="1.37639" zpos="695.0626" type="onlyfish.fishingholes.shore" GUID="n5JJyGw2Q0a3QAZORRruWQ=="/>
         <POI MapID="1271" xpos="-279.9514" ypos="1.37639" zpos="679.2877" type="onlyfish.fishingholes.shore" GUID="gdW3Z01Hw0el9kvpITSowA=="/>
+        <POI MapID="1271" xpos="-537.5164" ypos="1.376387" zpos="687.0181" type="onlyfish.fishingholes.shore" GUID="vWowaGMsLEOpZdQ7GcCcng=="/>
         <!-- Domain of Kourna -->
         <POI MapID="1288" xpos="-730.453" ypos="1.37639" zpos="-248.771" type="onlyfish.fishingholes.desert" GUID="8Gp5HUFm502ocm9/k9pT1w=="/>
         <POI MapID="1288" xpos="-822.445" ypos="1.37639" zpos="-388.699" type="onlyfish.fishingholes.desert" GUID="UCPAT3GmcEONUWSnv+3wjA=="/>
@@ -2239,6 +2274,7 @@
         <POI MapID="1288" xpos="-110.778" ypos="1.37639" zpos="-228.162" type="onlyfish.fishingholes.desert" GUID="VwVlTSegG0OnpPjx0sU1TA=="/>
         <POI MapID="1288" xpos="-829.629" ypos="1.37639" zpos="-425.108" type="onlyfish.fishingholes.desert" GUID="N8xLQzySyUae6CbNlsHbhg=="/>
         <POI MapID="1288" xpos="-32.4304" ypos="1.37639" zpos="-355.542" type="onlyfish.fishingholes.desert" GUID="FhG68QoU80O3Ry054/CudQ=="/>
+        
         <!-- Thunderhead Peaks -->
         <POI MapID="1310" xpos="-454.972" ypos="1.37639" zpos="-242.358" type="onlyfish.fishingholes.boreal" GUID="TzY0G8gFfkq4RmcBjSju0w=="/>
         <POI MapID="1310" xpos="-544.328" ypos="1.37639" zpos="-325.669" type="onlyfish.fishingholes.boreal" GUID="4EfzzL3ACU6aQj7sBZcQ6g=="/>
@@ -3062,6 +3098,8 @@
         <POI MapID="1517" xpos="346.171" ypos="385.905" zpos="402.889" type="onlyfish.fishingholes.astral" GUID="ELZFg161okG4WdTsCL956w=="/>
         <POI MapID="1517" xpos="330.092" ypos="385.905" zpos="429.684" type="onlyfish.fishingholes.astral" GUID="T2J9jR6Z8EaDFrvdcLy+4g=="/>
         <POI MapID="1517" xpos="383.528" ypos="385.905" zpos="388.912" type="onlyfish.fishingholes.boreal" GUID="nPWvKQuOKUSiBEHuKF4Qbw=="/>
+        <POI MapID="1517" xpos="-182.1275" ypos="395.735" zpos="548.2243" type="onlyfish.fishingholes.spire" GUID="nmEZ71ip9EWh0deucnO5vA=="/>
+        <POI MapID="1517" xpos="194.9521" ypos="416.2099" zpos="131.0859" type="onlyfish.fishingholes.spire" GUID="2p4B3+3LJEaYrHYVaOSftg=="/>
         <!-- Inner Nayos -->
         <POI MapID="1526" xpos="668.02" ypos="200.403" zpos="-373.356" type="onlyfish.fishingholes.nayosian" GUID="mBW1Am0yi0ivkh8YEOkxDg=="/>
         <POI MapID="1526" xpos="652.732" ypos="200.403" zpos="-323.422" type="onlyfish.fishingholes.nayosian" GUID="4zIvXcEkikG7V5MXJAdsAA=="/>
@@ -3115,8 +3153,141 @@
         <POI MapID="1526" xpos="380.83" ypos="298.595" zpos="222.461" type="onlyfish.fishingholes.dream" GUID="K18SU2cQvk2qYtbAiZXeEw=="/>
         <POI MapID="1526" xpos="510.98" ypos="262.797" zpos="467.113" type="onlyfish.fishingholes.nayosian" GUID="ctgiRua/Qkm2NSlSjnD0dA=="/>
         <POI MapID="1526" xpos="515.045" ypos="262.968" zpos="460.454" type="onlyfish.fishingholes.nayosian" GUID="T06nTrpnWEqPEl3eEAaUWA=="/>
-        <POI MapID="1526" xpos="-104.415" ypos="172.775" zpos="258.068" type="onlyfish.fishingholes.boreal" GUID="Q5OVGAhSaE6PB4WyK0pfaQ=="/>
-        <POI MapID="1526" xpos="-93.8844" ypos="172.775" zpos="249" type="onlyfish.fishingholes.boreal" GUID="pyUKqpZnUUa0HqIibEu/Sw=="/>
-        <POI MapID="1526" xpos="-69.9917" ypos="172.775" zpos="241.002" type="onlyfish.fishingholes.boreal" GUID="URKszrboh0ud0mCA4RT/Yw=="/>    
+        <POI MapID="1526" xpos="-104.415" ypos="172.775" zpos="258.068" type="onlyfish.fishingholes.nayosian" GUID="Q5OVGAhSaE6PB4WyK0pfaQ=="/>
+        <POI MapID="1526" xpos="-93.8844" ypos="172.775" zpos="249" type="onlyfish.fishingholes.dream" GUID="pyUKqpZnUUa0HqIibEu/Sw=="/>
+        <POI MapID="1526" xpos="-69.9917" ypos="172.775" zpos="241.002" type="onlyfish.fishingholes.dream" GUID="URKszrboh0ud0mCA4RT/Yw=="/>
+        <POI MapID="1526" xpos="-36.70258" ypos="175.0293" zpos="-64.55531" type="onlyfish.fishingholes.dream" GUID="g7ZGQk0fRkej30yexUVxBA=="/>
+        <POI MapID="1526" xpos="-55.73904" ypos="175.0293" zpos="-64.52508" type="onlyfish.fishingholes.dream" GUID="38y6aYyNMke7fsu7QMigNQ=="/>
+        <POI MapID="1526" xpos="-50.89557" ypos="232.5569" zpos="-278.9657" type="onlyfish.fishingholes.dream" GUID="pc1V5lPYUUKgp0W541Ajmw=="/>
+        <POI MapID="1526" xpos="-58.79633" ypos="232.5569" zpos="-300.2" type="onlyfish.fishingholes.dream" GUID="Oi4EmsPjGk2FTVEQ2+BsJQ=="/>
+        <POI MapID="1526" xpos="-43.0372" ypos="232.5569" zpos="-306.044" type="onlyfish.fishingholes.nayosian" GUID="mbZymzpqAUKrz5EEYiqz8Q=="/>
+        <POI MapID="1526" xpos="-10.83105" ypos="232.5569" zpos="-296.8282" type="onlyfish.fishingholes.dream" GUID="v4zaqdPDNkSYCpnxHWa6YA=="/>
+        <POI MapID="1526" xpos="350.0343" ypos="298.5945" zpos="231.1321" type="onlyfish.fishingholes.dream" GUID="JuBqgedHBU2iGW/lc7KoiA=="/>
+        <POI MapID="1526" xpos="336.3507" ypos="298.5945" zpos="243.5469" type="onlyfish.fishingholes.nayosian" GUID="P8KAHQ0krkeVwZBeM6jLXw=="/>
+        <!-- Lowland Shore -->
+        <POI MapID="1550" xpos="582.4265" ypos="1.376387" zpos="352.5621" type="onlyfish.fishingholes.lowbrackish" GUID="qOmxgeOW6UyakKf0ALqxJg=="/>
+        <POI MapID="1550" xpos="712.1596" ypos="1.376387" zpos="463.6695" type="onlyfish.fishingholes.lowbrackish" GUID="8HXgp+ppCUyg8LNGN8fBJQ=="/>
+        <POI MapID="1550" xpos="818.8596" ypos="1.376387" zpos="515.7419" type="onlyfish.fishingholes.lowshore" GUID="jRXj5Tmhy0W3AGWixQ2iFA=="/>
+        <POI MapID="1550" xpos="823.7094" ypos="1.376387" zpos="623.3823" type="onlyfish.fishingholes.lowshore" GUID="gWeaTsuChkOUzx+gEoT09Q=="/>
+        <POI MapID="1550" xpos="901.0609" ypos="1.376387" zpos="598.6219" type="onlyfish.fishingholes.lowshore" GUID="BnM/9Z3IVEqcNJW7tCYsxQ=="/>
+        <POI MapID="1550" xpos="1010.496" ypos="1.376387" zpos="656.1108" type="onlyfish.fishingholes.lowoffshore" GUID="FKXs+Y6yvE+La4a5NsJleQ=="/>
+        <POI MapID="1550" xpos="728.4019" ypos="1.376387" zpos="698.7548" type="onlyfish.fishingholes.lowoffshore" GUID="1jmEGZCy70aau72+ItBoSA=="/>
+        <POI MapID="1550" xpos="555.9066" ypos="1.376387" zpos="605.5494" type="onlyfish.fishingholes.lowshore" GUID="vm0HhO0kmkuNKQ+x1q1PnQ=="/>
+        <POI MapID="1550" xpos="491.7183" ypos="1.376387" zpos="642.476" type="onlyfish.fishingholes.lowshore" GUID="KnRGXwy89UOZbPcFb3MrIA=="/>
+        <POI MapID="1550" xpos="292.9814" ypos="1.376387" zpos="660.1692" type="onlyfish.fishingholes.lowoffshore" GUID="SNfrLT24vESaQUQGVluvOA=="/>
+        <POI MapID="1550" xpos="307.0215" ypos="1.376387" zpos="433.5999" type="onlyfish.fishingholes.lowbrackish" GUID="5RMg+ujMHkGP+nU/fV3q2Q=="/>
+        <POI MapID="1550" xpos="102.4407" ypos="1.376387" zpos="689.5551" type="onlyfish.fishingholes.lowoffshore" GUID="4tyEzBnK8UaKNrEKgjJG9g=="/>
+        <POI MapID="1550" xpos="0.8145337" ypos="1.376387" zpos="695.2622" type="onlyfish.fishingholes.lowoffshore" GUID="8ouaQTb2wE+/ARLaZB9iaw=="/>
+        <POI MapID="1550" xpos="80.76624" ypos="1.376387" zpos="468.3762" type="onlyfish.fishingholes.lowbrackish" GUID="WIaE2DscTUGy7y44dMhJfQ=="/>
+        <POI MapID="1550" xpos="-77.79554" ypos="1.376387" zpos="601.6075" type="onlyfish.fishingholes.lowshore" GUID="2z7MLsa+/UyID+D3NJO/ig=="/>
+        <POI MapID="1550" xpos="-319.5627" ypos="1.376387" zpos="705.7711" type="onlyfish.fishingholes.lowoffshore" GUID="OVXm7S6nCkC2gAvS7iiGXg=="/>
+        <POI MapID="1550" xpos="-395.2694" ypos="1.376387" zpos="682.8472" type="onlyfish.fishingholes.lowoffshore" GUID="jh891bC+aEiwHuwPQxjv+A=="/>
+        <POI MapID="1550" xpos="-420.3857" ypos="1.376387" zpos="611.0717" type="onlyfish.fishingholes.lowshore" GUID="dh3zNExXMkaLIc0DcGFMgQ=="/>
+        <POI MapID="1550" xpos="-557.7233" ypos="1.376375" zpos="587.2388" type="onlyfish.fishingholes.lowshore" GUID="hw/QofDBvk6Jqt4GIDVfDA=="/>
+        <POI MapID="1550" xpos="-672.5151" ypos="1.376387" zpos="651.3716" type="onlyfish.fishingholes.lowoffshore" GUID="Quc0tNyQ+k+ct+fDjS/8GQ=="/>
+        <POI MapID="1550" xpos="-744.3715" ypos="1.376387" zpos="603.2461" type="onlyfish.fishingholes.lowshore" GUID="gQpXvUR3SEykTLTjwCtOgw=="/>
+        <POI MapID="1550" xpos="-966.6309" ypos="1.376387" zpos="697.3126" type="onlyfish.fishingholes.lowoffshore" GUID="R0S3pn6uxEmrBWt0LFMgfw=="/>
+        <POI MapID="1550" xpos="-1047.28" ypos="1.376387" zpos="558.0063" type="onlyfish.fishingholes.lowoffshore" GUID="nxJg3QGXQ0SP40JEoVVCiw=="/>
+        <POI MapID="1550" xpos="-948.2811" ypos="1.376387" zpos="432.5483" type="onlyfish.fishingholes.lowshore" GUID="iQ0esaS8tUmSRxfQ8CmClw=="/>
+        <POI MapID="1550" xpos="-1050.903" ypos="1.376387" zpos="317.9585" type="onlyfish.fishingholes.lowshore" GUID="KachTtGpnECYWxhNxp5M3g=="/>
+        <POI MapID="1550" xpos="-971.7422" ypos="1.376387" zpos="93.8766" type="onlyfish.fishingholes.lowbrackish" GUID="vFo3JnOghE6VHgxubnN9OQ=="/>
+        <POI MapID="1550" xpos="-835.3536" ypos="1.376387" zpos="155.0771" type="onlyfish.fishingholes.lowbrackish" GUID="kyrseN/g6Eexy2zvOBJiUg=="/>
+        <POI MapID="1550" xpos="-723.3325" ypos="1.376387" zpos="81.81811" type="onlyfish.fishingholes.lowbrackish" GUID="+SvHT2DnWkq3fizGVzkiHA=="/>
+        <POI MapID="1550" xpos="-489.2979" ypos="1.376387" zpos="-39.40041" type="onlyfish.fishingholes.lowbrackish" GUID="hIkhadNXpkqQ7EcbvxlkQQ=="/>
+        <POI MapID="1550" xpos="-384.0383" ypos="1.376387" zpos="-103.752" type="onlyfish.fishingholes.lowbrackish" GUID="csVhagPDB0qqC8xH3K3KAg=="/>
+        <POI MapID="1550" xpos="-99.8681" ypos="1.376411" zpos="98.73646" type="onlyfish.fishingholes.lowbrackish" GUID="5dRxeXBls0iupXGqTi1XMg=="/>
+        <POI MapID="1550" xpos="31.49744" ypos="1.376388" zpos="272.9552" type="onlyfish.fishingholes.lowbrackish" GUID="EhG6PntLzUCwAtJTtocatA=="/>
+        <POI MapID="1550" xpos="98.95081" ypos="1.376388" zpos="210.2037" type="onlyfish.fishingholes.lowbrackish" GUID="oPyrG8y9z0yj9Xhs602WTg=="/>
+        <POI MapID="1550" xpos="131.3608" ypos="1.376388" zpos="116.2836" type="onlyfish.fishingholes.lowbrackish" GUID="IVutq8NX+kyQMEWQd0lplQ=="/>
+        <POI MapID="1550" xpos="-55.58225" ypos="108.5812" zpos="417.9253" type="onlyfish.fishingholes.lowfresh" GUID="F7BEeoS7DEGEG7bIB5aCEA=="/>
+        <POI MapID="1550" xpos="21.7785" ypos="1.376388" zpos="254.4201" type="onlyfish.fishingholes.lowfresh" GUID="S4YkMVx4Zky95XxjKqkVKA=="/>
+        <POI MapID="1550" xpos="26.02372" ypos="1.376388" zpos="233.6875" type="onlyfish.fishingholes.lowfresh" GUID="egKEbdOk5USn1XKTKJai4g=="/>
+        <POI MapID="1550" xpos="20.4809" ypos="1.376388" zpos="211.308" type="onlyfish.fishingholes.lowfresh" GUID="mfMw9oNqlEC96AgFatjuzA=="/>
+        <POI MapID="1550" xpos="50.4028" ypos="1.376388" zpos="292.5837" type="onlyfish.fishingholes.lowbrackish" GUID="9VVF4I/7IUeMz+P6BVapCA=="/>
+        <POI MapID="1550" xpos="77.27699" ypos="1.376388" zpos="225.9435" type="onlyfish.fishingholes.lowbrackish" GUID="WMWHXXBer0iO8TLNSFA73w=="/>
+        <POI MapID="1550" xpos="82.11932" ypos="1.376388" zpos="410.6003" type="onlyfish.fishingholes.lowbrackish" GUID="aC9uh1epNUSiZkKXuf3PFw=="/>
+        <POI MapID="1550" xpos="334.1725" ypos="1.376387" zpos="664.1772" type="onlyfish.fishingholes.lowoffshore" GUID="BjAzI1YxVU6/Rpq3hzwRkw=="/>
+        <POI MapID="1550" xpos="824.3497" ypos="1.376387" zpos="706.338" type="onlyfish.fishingholes.lowoffshore" GUID="fRCLbMQpjkGXVZMx2M/MxQ=="/>
+        <POI MapID="1550" xpos="924.9424" ypos="1.376387" zpos="575.4512" type="onlyfish.fishingholes.lowshore" GUID="BMaxPg0lD0Glv/I98KEa7A=="/>
+        <POI MapID="1550" xpos="988.0536" ypos="1.376387" zpos="688.3012" type="onlyfish.fishingholes.lowoffshore" GUID="LysL1VYLRkawDczAbdeOmA=="/>
+        <POI MapID="1550" xpos="143.3945" ypos="1.376387" zpos="680.9885" type="onlyfish.fishingholes.lowoffshore" GUID="0s1YsGaq2kipm16yI+XiGA=="/>
+        <POI MapID="1550" xpos="-91.3026" ypos="1.376387" zpos="671.3206" type="onlyfish.fishingholes.lowoffshore" GUID="p5yJvJEDo0W7kw5rAKveow=="/>
+        <POI MapID="1550" xpos="-358.1225" ypos="1.376387" zpos="586.2469" type="onlyfish.fishingholes.lowshore" GUID="zYGkA+B4BUCAcVB0UFl65Q=="/>
+        <POI MapID="1550" xpos="-490.7168" ypos="1.376387" zpos="677.6048" type="onlyfish.fishingholes.lowoffshore" GUID="AcrB2F94gE2Dj1FxTvshdQ=="/>
+        <POI MapID="1550" xpos="-655.1992" ypos="1.376387" zpos="682.901" type="onlyfish.fishingholes.lowoffshore" GUID="ZskLJ2mv80mP06JL8LsQmA=="/>
+        <POI MapID="1550" xpos="-772.8159" ypos="1.376387" zpos="697.1451" type="onlyfish.fishingholes.lowoffshore" GUID="7b4ZHiGD9UqUOruZWNkr6g=="/>
+        <POI MapID="1550" xpos="-803.1091" ypos="1.376387" zpos="564.9778" type="onlyfish.fishingholes.lowshore" GUID="TC+jiYyJnUOHAeiSf5ZyUQ=="/>
+        <POI MapID="1550" xpos="-968.2372" ypos="1.376387" zpos="499.9043" type="onlyfish.fishingholes.lowshore" GUID="R7tt539Xkk6NWo/eqlosmg=="/>
+        <POI MapID="1550" xpos="-1047.298" ypos="1.376387" zpos="284.5887" type="onlyfish.fishingholes.lowshore" GUID="ehkyEAhRWUS4jifbqvh9mg=="/>
+        <POI MapID="1550" xpos="-1000.974" ypos="1.376387" zpos="99.58789" type="onlyfish.fishingholes.lowbrackish" GUID="zKNhnPqHcUCNIqhi1mSVHA=="/>
+        <POI MapID="1550" xpos="-868.3959" ypos="1.376388" zpos="154.4597" type="onlyfish.fishingholes.lowbrackish" GUID="7RsXjuX3ik+xWzxceXhKwQ=="/>
+        <POI MapID="1550" xpos="-668.4888" ypos="1.376388" zpos="20.411" type="onlyfish.fishingholes.lowbrackish" GUID="gecUEyFHRkW+500oSC6wdA=="/>
+        <POI MapID="1550" xpos="-436.4116" ypos="1.376387" zpos="-121.4779" type="onlyfish.fishingholes.lowbrackish" GUID="z4qIc+IKMkO8KwkzhgotdA=="/>
+        <POI MapID="1550" xpos="-92.91385" ypos="1.376387" zpos="128.4821" type="onlyfish.fishingholes.lowbrackish" GUID="4vnCIFtvV0eUB+ZA1wrbwA=="/>
+        <POI MapID="1550" xpos="52.66058" ypos="1.376387" zpos="325.7293" type="onlyfish.fishingholes.lowbrackish" GUID="8qHQHvx4DUmXxQPiGNpLkQ=="/>
+        <POI MapID="1550" xpos="357.7168" ypos="1.376387" zpos="692.1355" type="onlyfish.fishingholes.lowoffshore" GUID="moGvUdUHSEq3CJZ+ZPH0Wg=="/>
+        <POI MapID="1550" xpos="306.5813" ypos="1.376387" zpos="492.6596" type="onlyfish.fishingholes.lowbrackish" GUID="8SzG54Smo0+BVUMgzlkHlQ=="/>
+        <POI MapID="1550" xpos="-16.43615" ypos="1.376387" zpos="664.0025" type="onlyfish.fishingholes.lowoffshore" GUID="5Y+iorfA20S+ZNzBoANtFQ=="/>
+        <POI MapID="1550" xpos="801.9258" ypos="1.376387" zpos="677.746" type="onlyfish.fishingholes.lowoffshore" GUID="jqdXPbbnSEKQ/yuUV/33gg=="/>
+        <POI MapID="1550" xpos="918.0336" ypos="1.376388" zpos="678.0915" type="onlyfish.fishingholes.lowoffshore" GUID="aJQt02G3UUiNLwWrZOW/MA=="/>
+        <POI MapID="1550" xpos="953.0792" ypos="1.376388" zpos="515.2405" type="onlyfish.fishingholes.lowshore" GUID="Jp1HMboISkKYvcYMcqx2bw=="/>
+        <POI MapID="1550" xpos="814.9111" ypos="1.376388" zpos="439.8083" type="onlyfish.fishingholes.lowshore" GUID="ZLn1Q1v2wkCe4K3QQL7gLA=="/>
+        <POI MapID="1550" xpos="659.9068" ypos="1.376388" zpos="439.2441" type="onlyfish.fishingholes.lowbrackish" GUID="+DDXXs/BP0WKDuJeIU9j2g=="/>
+        <POI MapID="1550" xpos="533.8836" ypos="1.376387" zpos="320.7645" type="onlyfish.fishingholes.lowbrackish" GUID="0Ns4b/jG/kuaC4SAwiBIvg=="/>
+        <POI MapID="1550" xpos="-223.9451" ypos="1.376387" zpos="704.4459" type="onlyfish.fishingholes.lowoffshore" GUID="U73KkoFAc0G+uSkvt65jng=="/>
+        <POI MapID="1550" xpos="-467.0618" ypos="1.376387" zpos="704.4618" type="onlyfish.fishingholes.lowoffshore" GUID="MhxMCbJ5wESrRXdu0zdI7w=="/>
+        <POI MapID="1550" xpos="-525.0974" ypos="1.376387" zpos="587.8296" type="onlyfish.fishingholes.lowshore" GUID="r7M1l28QK0GjC7mjjdDhhA=="/>
+        <POI MapID="1550" xpos="-580.2116" ypos="1.376387" zpos="674.6224" type="onlyfish.fishingholes.lowoffshore" GUID="q1nFMJZmrkCUphxENzj2DQ=="/>
+        <POI MapID="1550" xpos="-738.1804" ypos="1.376387" zpos="678.2094" type="onlyfish.fishingholes.lowoffshore" GUID="LERkM4AB8kuVbCDM1fADdQ=="/>
+        <POI MapID="1550" xpos="-1024.839" ypos="1.376387" zpos="655.1853" type="onlyfish.fishingholes.lowoffshore" GUID="rv4jbIJSg02+k3aBGKnnxQ=="/>
+        <POI MapID="1550" xpos="-1030.842" ypos="1.376387" zpos="451.3139" type="onlyfish.fishingholes.lowoffshore" GUID="Jl5adK/V50OZXfg2uDzVNg=="/>
+        <POI MapID="1550" xpos="-1020.782" ypos="1.376387" zpos="125.8451" type="onlyfish.fishingholes.lowbrackish" GUID="6qFW0ts74UK6GHfgbZsubw=="/>
+        <POI MapID="1550" xpos="-698.382" ypos="1.376387" zpos="59.68137" type="onlyfish.fishingholes.lowbrackish" GUID="SWaMs5jbxEKeowdmqq99gA=="/>
+        <POI MapID="1550" xpos="-308.0139" ypos="1.376387" zpos="-75.50851" type="onlyfish.fishingholes.lowbrackish" GUID="AOyZuCsIdEGKfgMEkYYAHQ=="/>
+        <POI MapID="1550" xpos="-67.2016" ypos="1.376385" zpos="147.8726" type="onlyfish.fishingholes.lowbrackish" GUID="7Yz2y/fipkCiAxkaNRlVQA=="/>
+        <POI MapID="1550" xpos="-777.8168" ypos="1.376387" zpos="599.5053" type="onlyfish.fishingholes.lowoffshore" GUID="bhHHJEP7sU2oaZA58nK/Lw=="/>
+        <POI MapID="1550" xpos="-831.1805" ypos="1.376387" zpos="655.6754" type="onlyfish.fishingholes.lowoffshore" GUID="PlcY9Wl4QUWczbmF+APmkg=="/>
+        <POI MapID="1550" xpos="-973.9063" ypos="1.376387" zpos="466.2549" type="onlyfish.fishingholes.lowshore" GUID="UKeHY4plzUmPwdfoiS2O9A=="/>
+        <POI MapID="1550" xpos="-890.0386" ypos="1.376387" zpos="134.2069" type="onlyfish.fishingholes.lowbrackish" GUID="Hid9O5+7C023QwFQvFgrKg=="/>
+        <POI MapID="1550" xpos="-299.7999" ypos="1.376387" zpos="-5.01188" type="onlyfish.fishingholes.lowbrackish" GUID="bYWiXwLcekWbrF3cHC1rtw=="/>
+        <POI MapID="1550" xpos="560.7725" ypos="1.376387" zpos="325.4472" type="onlyfish.fishingholes.lowbrackish" GUID="xPERbe1/uEKijgH+B47p9w=="/>
+        <POI MapID="1550" xpos="658.0851" ypos="1.376387" zpos="410.1035" type="onlyfish.fishingholes.lowbrackish" GUID="8E11u8DSt0y/a791sd5uLA=="/>
+        <POI MapID="1550" xpos="740.2589" ypos="1.376387" zpos="571.4576" type="onlyfish.fishingholes.lowshore" GUID="24WZ2NlIRk+9KUK5jSep0A=="/>
+        <POI MapID="1550" xpos="853.4566" ypos="1.376387" zpos="602.0253" type="onlyfish.fishingholes.lowshore" GUID="XJSzJxiXckGR13dRwoex8Q=="/>
+        <POI MapID="1550" xpos="-87.07526" ypos="108.5812" zpos="398.638" type="onlyfish.fishingholes.lowfresh" GUID="NWFYJXgEbEu2MecHzFrSWA=="/>
+        <POI MapID="1550" xpos="684.0665" ypos="1.376387" zpos="462.3555" type="onlyfish.fishingholes.lowbrackish" GUID="lM2fxx52pE+9n+3o8MQwKw=="/>
+        <POI MapID="1550" xpos="580.0998" ypos="1.376387" zpos="381.8769" type="onlyfish.fishingholes.lowbrackish" GUID="/fmAC6aASEC1mltkmL7G8w=="/>
+        <POI MapID="1550" xpos="380.6743" ypos="1.376387" zpos="588.4227" type="onlyfish.fishingholes.lowshore" GUID="z1uXcR9ky0ib+pF8owePzQ=="/>
+        <POI MapID="1550" xpos="165.8395" ypos="1.376387" zpos="648.6272" type="onlyfish.fishingholes.lowoffshore" GUID="esqcqlkxEUuxHljN8fYDBw=="/>
+        <POI MapID="1550" xpos="209.0173" ypos="1.376387" zpos="568.3792" type="onlyfish.fishingholes.event.rare" GUID="Qp2SpV7RLEGThH1/PgTiCA=="/>
+        <POI MapID="1550" xpos="198.2045" ypos="1.376387" zpos="556.0767" type="onlyfish.fishingholes.event.rare" GUID="iYQm9e3DYUGYc6TvBCQJIw=="/>
+        <POI MapID="1550" xpos="171.4707" ypos="1.376387" zpos="539.8527" type="onlyfish.fishingholes.event.rare" GUID="24ai5foxL0GqOVnm/qrrPw=="/>
+        <POI MapID="1550" xpos="183.8948" ypos="1.376387" zpos="524.114" type="onlyfish.fishingholes.event.rare" GUID="MCMUqddHXUOqwN9eQlLaSw=="/>
+        <POI MapID="1550" xpos="218.6815" ypos="1.376387" zpos="604.8191" type="onlyfish.fishingholes.event.rare" GUID="V9nHoMb+M0qmA+MiQzwZ2w=="/>
+        <POI MapID="1550" xpos="241.1342" ypos="1.376387" zpos="597.3643" type="onlyfish.fishingholes.event.rare" GUID="S7/kqr88+kupU6WFzy8uWQ=="/>
+        <POI MapID="1550" xpos="262.146" ypos="1.376387" zpos="591.0829" type="onlyfish.fishingholes.event.rare" GUID="c7m8btx8Xk20KqtABJVexw=="/>
+        <POI MapID="1550" xpos="276.015" ypos="1.376393" zpos="568.6175" type="onlyfish.fishingholes.event.rare" GUID="eWbqVk1bkk+J+P/sXTzijw=="/>
+        <POI MapID="1550" xpos="217.204" ypos="1.376392" zpos="589.1511" type="onlyfish.fishingholes.event.rare" GUID="0Ez9H8LEekaL5Nr4am3DMA=="/>
+        <POI MapID="1550" xpos="198.5424" ypos="1.376387" zpos="542.2728" type="onlyfish.fishingholes.event.rare" GUID="qAa0XzncUUCVUecRClma/w=="/>
+        <POI MapID="1550" xpos="197.4507" ypos="1.376388" zpos="587.5965" type="onlyfish.fishingholes.event.rare" GUID="+oIYsalpyUiVo5bGyZHYRQ=="/>
+        <!-- Janthir Syntri -->
+        <POI MapID="1554" xpos="-241.5962" ypos="46.05221" zpos="-728.4926" type="onlyfish.fishingholes.freshj" GUID="SBY6Rbn5V0ykdel3Fy5nzQ=="/>
+        <POI MapID="1554" xpos="-689.8209" ypos="1.376387" zpos="-466.5113" type="onlyfish.fishingholes.freshj" GUID="qJJsBJy4nEiUc1glG2+Jug=="/>
+        <POI MapID="1554" xpos="215.9166" ypos="1.37638" zpos="710.1686" type="onlyfish.fishingholes.ssj" GUID="uSuk2NZMV0SVrpjuE15PwA=="/>
+        <POI MapID="1554" xpos="-8.866591" ypos="1.376387" zpos="826.9293" type="onlyfish.fishingholes.osj" GUID="+Bzd26dNkEedbiXyZtk+wA=="/>
+        <POI MapID="1554" xpos="862.2828" ypos="1.376387" zpos="386.8002" type="onlyfish.fishingholes.osj" GUID="v0NT4GO+tkm+dc6q1sy0dw=="/>
+        <POI MapID="1554" xpos="782.8848" ypos="1.376387" zpos="-128.7956" type="onlyfish.fishingholes.ssj" GUID="7A3KvEiL7k2TLM0zGb6iNw=="/>
+        <POI MapID="1554" xpos="865.4921" ypos="1.376387" zpos="-227.4267" type="onlyfish.fishingholes.ssj" GUID="1STOk6mYuUqAbgDl+/53Vw=="/>
+        <POI MapID="1554" xpos="133.4714" ypos="1.376388" zpos="370.3751" type="onlyfish.fishingholes.brackishj" GUID="dO/GOQIUnEyDQ9zT7FZI/w=="/>
+        <POI MapID="1554" xpos="348.4512" ypos="1.376407" zpos="-503.2895" type="onlyfish.fishingholes.brackishj" GUID="LtSgrQmKREmdK5E/Z7jfhw=="/>
+        <POI MapID="1554" xpos="214.266" ypos="1.376387" zpos="-707.4438" type="onlyfish.fishingholes.brackishj" GUID="jwREiP7mmkadIWVO9Jh0ZA=="/>
+        <POI MapID="1554" xpos="424.4638" ypos="1.376391" zpos="-774.2865" type="onlyfish.fishingholes.brackishj" GUID="oTmrXe2+H0aUuCT6znv6pA=="/>
+        <POI MapID="1554" xpos="444.1959" ypos="1.376387" zpos="-393.1809" type="onlyfish.fishingholes.brackishj" GUID="n0Bagw2qbEuTr3DsPcwQ8Q=="/>
+        <POI MapID="1554" xpos="719.0777" ypos="1.376392" zpos="496.4983" type="onlyfish.fishingholes.ssj" GUID="aJgkwXEGPEitshLDVY3vcg=="/>
+        <POI MapID="1554" xpos="299.2333" ypos="1.376387" zpos="-796.6108" type="onlyfish.fishingholes.brackishj" GUID="qBZlBHv70km3UqHJpzfQDA=="/>
+        <POI MapID="1554" xpos="-686.0183" ypos="63.69439" zpos="-73.83271" type="onlyfish.fishingholes.freshj" GUID="EJSoRtvROk6YeOk4PiTErg=="/>
+        <POI MapID="1554" xpos="174.8715" ypos="1.376387" zpos="-218.2443" type="onlyfish.fishingholes.brackishj" GUID="2dLpDMKwrUK2avO90C2MIQ=="/>
+        <POI MapID="1554" xpos="374.5286" ypos="1.376387" zpos="795.7211" type="onlyfish.fishingholes.osj" GUID="cHhGXkvZzUCjhIZRCjod2Q=="/>
+        <POI MapID="1554" xpos="883.1" ypos="1.376388" zpos="-335.4341" type="onlyfish.fishingholes.ssj" GUID="C1yK2DuSJUiVBnU8uvirhA=="/>
 	</POIs>
 </OverlayData>
